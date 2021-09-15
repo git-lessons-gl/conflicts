@@ -5,7 +5,7 @@ int main()
         int a = 5;
         int b = 5;
 
-        std::cout << a << " + " << b << " = " << a + b << std::endl;
+        printf("%d + %d = %d", a, b, a + b);
 
         return 0;
 }
